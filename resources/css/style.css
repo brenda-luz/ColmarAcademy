@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: #4b4b4b;
+  background: #fff;
   font-family: 'Sintony', sans-serif;
   color: #000;
 }
@@ -51,7 +51,7 @@ h4{
   padding: 2rem 0;
   margin: 0 1.22rem;
 }
-.left img {
+.left img, .left video {
   width: 100%;
 }
 
@@ -143,7 +143,7 @@ nav a:active {
 }
 .box {
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .box img {
@@ -211,16 +211,55 @@ nav a:active {
   line-height: 1rem;
 }
 
+/* thesis section */
+.exhibit {
+  background: #f2f2f2;
+  margin: auto;
+}
+.exhibit h2 {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+.exhibit h3 {
+  padding: 1rem 0;
+}
+.exhibit .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.exhibit .left, .exhibit .right {
+  padding-top: 0;
+}
+
+/* footer */
+footer {
+  border-top: 2px solid #ddd;
+  font-size: 0.8rem;
+  color: #999;
+}
+#foot {
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+footer a{
+  text-decoration: none;
+  color: #999
+}
+footer a:hover {
+  text-decoration: underline;
+}
 
 
 
 
+/* mobile layout */
 @media only screen and (max-width:800px) {
   .container {
     width: 100%;
   }
 
-  #desktop-header, .info .left, .desktop, #desktop-courses {
+  #desktop-header, .info .left, .desktop, #desktop-courses, #video-desc, #desk-footer, .exhibit .right {
     display: none;
   }
 
@@ -235,7 +274,7 @@ nav a:active {
     flex-direction: column;
     align-items: center;
   }
-  #banner-column .left, .box img {
+  #banner-column .left, .box img, .exhibit .left {
     width: 100%;
     padding: 0;
   }
@@ -267,5 +306,8 @@ nav a:active {
     padding: 0.8rem;
     font-weight: bold;
     margin: 0.2rem 0.5rem;
+  }
+  footer {
+    padding-top: 1rem;
   }
 }
