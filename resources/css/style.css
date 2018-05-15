@@ -215,10 +215,11 @@ nav a:active {
 .exhibit {
   background: #f2f2f2;
   margin: auto;
+  padding: 1rem;
 }
 .exhibit h2 {
   text-align: center;
-  padding: 1.5rem 0;
+  padding: 1.7rem 0;
 }
 .exhibit h3 {
   padding: 1rem 0;
