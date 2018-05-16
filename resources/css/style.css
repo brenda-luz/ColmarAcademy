@@ -73,6 +73,7 @@ header .flex {
 }
 header img {
   height: 32px;
+  color: #006181;
 }
 .brand {
   align-items: center;
@@ -100,8 +101,9 @@ nav a:active {
 
 /* banner section */
 .banner {
-  background: #ccc;
+  background: #004d66;
   margin: 0 auto;
+  color: #fff;
 }
 .banner-text {
   display: flex;
@@ -110,19 +112,20 @@ nav a:active {
   width: 80%;
 }
 .button {
-  background-color: #737373;
+  background-color: #FF8300;
   color: #fff;
   text-align: center;
   padding: 0.5rem;
   text-decoration: none;
+  transition: background-color 0.3s linear;
 }
 .button:hover {
-  background-color: #333;
+  background-color: #ffa94d;
 }
 
 /* info section */
 .info {
-  background: #f2f2f2;
+  background: #d9d9d9;
   margin: auto;
 }
 .quote {
@@ -135,7 +138,7 @@ nav a:active {
   font-size: 0.7rem;
 }
 .info .right {
-  border-left: 1px solid #ccc;
+  border-left: 1px solid #004d66;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -151,8 +154,8 @@ nav a:active {
   padding: 15px 0 15px 15px;
 }
 #middle {
-  border-top: 3px solid #ccc;
-  border-bottom: 3px solid #ccc;
+  border-top: 3px solid #004d66;
+  border-bottom: 3px solid #004d66;
 }
 .info-content {
   flex-direction: column;
@@ -166,18 +169,19 @@ nav a:active {
 .info-link {
   font-size: 0.7rem;
   text-decoration: none;
-  color: #69f;
+  color: #FF8300;
 }
 .box:hover {
-  background: #ccc;
+  background: #004d66;
+  color: #fff;
 }
 .info-link:hover {
-  color: #05f;
+  color: #ffa94d;
 }
 
 /* courses section */
 .courses {
-  background: #e6e6e6;
+  background: #ccc;
   margin: auto;
   padding: 1rem 0;
 }
@@ -198,8 +202,12 @@ nav a:active {
 }
 .course-text {
   padding: 0.8rem;
-  background: #fff;
+  background: #006181;
+  color: #bfbfbf;
   height: 7rem;
+}
+.course-text h3 {
+  color: #fff;
 }
 .sub {
   padding: 1rem 0 0.5rem 0;
@@ -212,7 +220,7 @@ nav a:active {
 
 /* thesis section */
 .exhibit {
-  background: #f2f2f2;
+  background: #d9d9d9;
   margin: auto;
   padding: 1rem;
 }
@@ -223,13 +231,18 @@ nav a:active {
 .exhibit h3 {
   padding: 1rem 0;
 }
+.exhibit .left {
+  background: #006181;
+  color: #bfbfbf;
+  padding-bottom: 1rem;
+}
 .exhibit .right {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 .exhibit .left, .exhibit .right {
-  padding-top: 0;
+  padding-top: 1rem;
 }
 
 /* footer */
@@ -300,7 +313,8 @@ footer a:hover {
     padding-bottom: 2rem;
   }
   .subjectm {
-    background: #a6a6a6;
+    background: #004d66;
+    color: #bfbfbf;
     font-weight: bold;
     margin: 0.2rem 0.5rem;
     overflow: hidden;
@@ -326,6 +340,7 @@ footer a:hover {
   }
   .subjecth {
     background: #f2f2f2;
+    color: #1a1a1a;
     padding: 0.8rem;
     font-weight: normal;
     font-family: 'Poppins', sans-serif;
