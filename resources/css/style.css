@@ -206,6 +206,10 @@ nav a:active {
   color: #bfbfbf;
   height: 7rem;
 }
+.course-text:hover {
+  background-color: #A35400;
+  cursor: pointer;
+}
 .course-text h3 {
   color: #fff;
 }
