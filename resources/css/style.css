@@ -313,7 +313,8 @@ footer a:hover {
     padding-top: 1rem;
   }
   #foot {
-    width: 90%;
+    width: 80%;
+    font-size: 0.5rem;
   }
 
   .subjectm:hover {
