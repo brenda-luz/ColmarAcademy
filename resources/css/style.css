@@ -251,8 +251,6 @@ footer a:hover {
 }
 
 
-
-
 /* mobile layout */
 @media only screen and (max-width:800px) {
   .container {
@@ -313,6 +311,9 @@ footer a:hover {
   }
   footer {
     padding-top: 1rem;
+  }
+  #foot {
+    width: 90%;
   }
 
   .subjectm:hover {
