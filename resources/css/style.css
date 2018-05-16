@@ -172,7 +172,6 @@ nav a:active {
   background: #ccc;
 }
 .info-link:hover {
-  text-decoration: underline;
   color: #05f;
 }
 
@@ -304,11 +303,30 @@ footer a:hover {
   }
   .subjectm {
     background: #a6a6a6;
-    padding: 0.8rem;
     font-weight: bold;
     margin: 0.2rem 0.5rem;
+    overflow: hidden;
+    height: 2.6rem;
+    -webkit-transition: height 0.5s linear;
+    -moz-transition: height 0.5s linear;
+    transition: height 0.5s linear;
   }
   footer {
     padding-top: 1rem;
+  }
+
+  .subjectm:hover {
+    height: 5rem;
+  }
+  .subject-title{
+    display: block;
+    padding: 0.8rem;
+  }
+  .subjecth {
+    background: #f2f2f2;
+    padding: 0.8rem;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
   }
 }
